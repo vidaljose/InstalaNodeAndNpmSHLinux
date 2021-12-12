@@ -14,6 +14,7 @@ echo ""
 echo "Se actualizo el sistema"
 echo ""
 echo ""
+curl -sL https://deb.nodesource.com/setup_16.x | sudo bash -
 
 sudo apt -y install npm 
 sudo npm install npm@latest -g
