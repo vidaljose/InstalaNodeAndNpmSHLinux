@@ -4,6 +4,8 @@
 
 echo "Instalando node y npm"
 
+sudo apt install -y curl
+
 curl -sL https://deb.nodesource.com/setup_16.x | sudo bash -
 
 sudo apt -y update
